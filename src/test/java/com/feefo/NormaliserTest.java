@@ -46,7 +46,7 @@ public class NormaliserTest {
     }
 
     @Test
-    void testNormaliseWithHyphenatedMatch() {
+    void testNormaliseWithHyphenatedPartialMatch() {
         assertEquals("Quantity surveyor", normaliser.normalise("Quant-surveyor"));
     }
 }
